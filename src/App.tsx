@@ -1,25 +1,48 @@
 import React from 'react';
-import logo from './logo.svg';
+import { ThemeProvider, CssBaseline, createTheme } from '@mui/material';
 import './App.css';
+
+import Intro from './pages/intro/Intro';
+import About from './pages/about/About';
+import Experience from './pages/experience/Experience';
+import Projects from './pages/projects/Projects';
+
+import SidebarNav from './components/sidebarNav/SidebarNav';
+import Footer from './components/footer/Footer';
+
+const theme = createTheme({
+  palette: {
+    mode: 'dark',
+    primary: {
+      main: '#08d665',
+      contrastText: '#e6f1ff'
+    },
+    secondary: {
+      main: '#8892b0'
+    },
+    background: {
+      default: '#0a192f',
+      paper: '#112240',
+    },
+    text: {
+      primary: '#e6f1ff'
+    }
+  }
+});
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <div id="content">
+        <Intro />
+        <About />
+        <Experience />
+        <Projects />
+        <Footer />
+      </div>
+      <SidebarNav />
+    </ThemeProvider>
   );
 }
 
