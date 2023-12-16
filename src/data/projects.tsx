@@ -23,11 +23,7 @@ export const projects: ProjectType[] = [
         tech: [
             "GoLang",
             "Google Cloud",
-            "Python",
-            "AWS",
-            "MongoDB",
-            "SQL",
-            "Pandas & Numpy"
+            "FireStore"
         ]
     },
     {
