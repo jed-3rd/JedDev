@@ -2,7 +2,7 @@
 
 The second version of [https://jedcodes.dev/](https://jedcodes.dev/) built with React.
 
-## 🛠 set-up
+## 🛠 Set-up
 
 1. Install the dependencies
 
@@ -16,10 +16,10 @@ The second version of [https://jedcodes.dev/](https://jedcodes.dev/) built with 
    npm run start
    ```
 
-## 🚀 build and run for production
+## 🚀 Build and Deploy
 
-1. Generate build
+1. Deploy to GitHub Pages
 
    ```sh
-   npm run build
+   npm run deploy
    ```
