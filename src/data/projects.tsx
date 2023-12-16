@@ -8,15 +8,26 @@ export type ProjectType = {
 
 export const projects: ProjectType[] = [
     {
-        title: "GameDeck",
-        desc: "A Netflix style clone that uses multiple 3rd Party APIs to allow users to rate games they have played, and find new games they may enjoy.",
-        web: "https://gamedeck.online/",
+        title: "Digital Machine Id Code Algorithm",
+        desc: "A GoLang based CLI that adds and reads near-invisible watermarks to digital images and videos.",
+        github: "https://github.com/jed-3rd/Digital-Machine-Identification-Code-Algorithm",
         tech: [
-            "Remix",
-            "React",
-            "TypeScript",
-            "SASS",
-            "FireBase"
+            "GoLang",
+            "Machine Learning",
+        ]
+    },
+    {
+        title: "AlgoTrader",
+        desc: "Using several REST APIs and webhooks the software is able to fully automate the data analytics and trading of stocks in real-time.",
+        github: "https://github.com/jed-3rd/AlgoTrader",
+        tech: [
+            "GoLang",
+            "Google Cloud",
+            "Python",
+            "AWS",
+            "MongoDB",
+            "SQL",
+            "Pandas & Numpy"
         ]
     },
     {
@@ -30,24 +41,24 @@ export const projects: ProjectType[] = [
         ]
     },
     {
+        title: "GameDeck",
+        desc: "A Netflix style clone that uses multiple 3rd Party APIs to allow users to rate games they have played, and find new games they may enjoy.",
+        web: "https://gamedeck.online/",
+        tech: [
+            "Remix",
+            "React",
+            "TypeScript",
+            "SASS",
+            "FireBase"
+        ]
+    },
+    {
         title: "SASS Bitwise",
         desc: "A library of 32-Bit Bitwise Operations implemented fully in SASS. Works similar to the standard JavaScript Bitwise Operations.",
         github: "https://github.com/jed-3rd/sass-bitwise",
         tech: [
             "SASS",
             "JavaScript"
-        ]
-    },
-    {
-        title: "AlgoTrader",
-        desc: "Using several REST APIs and webhooks the software is able to fully automate the data analytics and trading of stocks in real-time.",
-        github: "https://github.com/jed-3rd/AlgoTrader",
-        tech: [
-            "Python",
-            "AWS",
-            "MongoDB",
-            "SQL",
-            "Pandas & Numpy"
         ]
     },
     {
@@ -72,7 +83,6 @@ export const projects: ProjectType[] = [
             "PyQT5"
         ]
     },
-    /*
     {
         title: "NFL Fantasy MVP Analysis",
         desc: "The goal of this study is to use Fantasy Football information to determine the best player at certain positions every year (1999 - 2019) in the NFL.",
@@ -83,5 +93,4 @@ export const projects: ProjectType[] = [
             "Jupyter"
         ]
     },
-    */
 ]
