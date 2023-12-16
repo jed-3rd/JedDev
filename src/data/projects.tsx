@@ -9,7 +9,7 @@ export type ProjectType = {
 export const projects: ProjectType[] = [
     {
         title: "Digital Machine Id Code Algorithm",
-        desc: "A GoLang based CLI that adds and reads near-invisible watermarks to digital images and videos.",
+        desc: "A GoLang based CLI that adds and reads near-invisible watermarks to digital images and videos. Based on Xerox's work in the 1980s.",
         github: "https://github.com/jed-3rd/Digital-Machine-Identification-Code-Algorithm",
         tech: [
             "GoLang",
